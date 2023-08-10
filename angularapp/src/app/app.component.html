@@ -43,7 +43,7 @@
       </ng-container>
     </form>
 
-    <div id="displayContainer">
+    <div id="displayContainer" name="displayContainer">
       <ng-container  *ngFor="let food of foods | filter:searchText.value">
         <div class="card">
           <img src="{{food.image}}" alt="{{food.name}}">
